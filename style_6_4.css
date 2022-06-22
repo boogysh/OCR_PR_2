@@ -347,12 +347,12 @@ font-weight: 600;
     display: none;
   }
   .item_nav{
-    border-bottom: 4px solid #f2f2f2;
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 20px;
+    border-bottom: 4px solid #f2f2f2;
   }
   .item_nav:hover,.active.item_nav{
     border-bottom: 4px solid #0065FC;
@@ -473,7 +473,7 @@ form input{
 .button_search:active,
 .button_search_small:active{
   transform: scale(1.02);
-  box-shadow: 0 0 3px lightgray;
+  box-shadow:px 0px 3px lightgray;
 }
 @media all and (max-width:767px){
   .button_search{
@@ -962,16 +962,15 @@ aside .popular_raiting{
 }
 @media all and
 (max-width:992px){
-  .container_lodging_and_aside{
-    flex-direction: column-reverse;
-  }
   #lodging{
     align-items: center;
   }
   .container_lodging{
     width: 100%;
   }
-  
+  .container_lodging_and_aside{
+    flex-direction: column-reverse;
+  }
   aside{
     width:100%;
     margin-left: 0px;
